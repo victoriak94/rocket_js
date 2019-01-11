@@ -57,7 +57,6 @@ class Rocket {
   // helper methods - don't need to test these!
 
   randomName() {
-    const prefixes = ["aries", "taurus", "gemini", "cancer", "leo", "virgo", "libra", "scorpio", "sagittarius", "capricorn", "aquarius", "pisces"],
           suffixes = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"];
     const randomPrefix = this.getRandom(prefixes),
           randomSuffix = this.getRandom(suffixes);
